@@ -1,10 +1,20 @@
 # Student Performance Prediction
 
-> Student's Performance Prediction Using Machine Learning Approach
+<img align="right" src="https://raw.githubusercontent.com/DrakeEntity/project-Image/master/9b2ca712-347a-4987-bac7-a4c3d106ed24_200x200.png" alt="pycontributors logo">
 
-<img height="350px" width="500px" src="https://swingeducation.com/wp-content/uploads/2018/08/How-to-Increase-Student-Performance-with-High-Expectations.jpg">
+- [Student Performance Prediction](#student-performance-prediction)
+  - [Problem Statement](#problem-statement)
+  - [Introduction](#introduction)
+  - [How To Run](#how-to-run)
+  - [Contributors](#contributors)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Project status](#project-status)
+  - [Author](#author)
 
-## Problem Statement 
+> Student's Performance Prediction Web Application Using Machine Learning Approach
+
+## Problem Statement
 
 Problem Statement - Predicting the Students performance using Machine learning based on their previous data and results for early prevention.
 
@@ -13,17 +23,32 @@ Problem Statement - Predicting the Students performance using Machine learning b
 ## How To Run
 
 - Install python3
-  - pip install django
+  - pip install pipenv
 
-## Usage
+Go to Base-Directory run following commands to start server
 
-## Support
+```bash
+pipenv install
+pipenv shell
+python manage.py runserver
+```
 
-contributers
+```bash
+# migrate database for user/admin login
+python manage.py migrate 
+# to create admin user
+python manage.py createsuperuser
+```
 
-## Roadmap
+visit <https://localhost:8000> on your pc
 
-More Data Analysis With Kaggle and improvement in previous Codes
+## Contributors
+
+
+- [Deepak Raj](https://github.com/shubham5351) - Django, ML, Frontend
+- [Shubham Pawar](https://github.com/shubham5351) - Maintainer, ML Modeling and Analyis
+- [Deepak Kumar](https://github.com/dkpcs92) - ML Modeling and analysis
+- []() - Frontend Part
 
 ## Contributing
 
@@ -35,10 +60,6 @@ Perform basic troubleshooting steps:
 - Try older versions. If you are already on the latest release, try rolling back a few minor versions (e.g. if on 1.7, try 1.5 or 1.6) and see if the problem goes away. This will help the devs narrow down when the problem first arose in the commit log.
 - Try switching up dependency versions. If the software in question has dependencies (other libraries, etc) try upgrading/downgrading those as well.
 
-## Authors and acknowledgment
-
-Show your appreciation to those who have contributed to the project.
-
 ## License
 
 For open source projects,Under MIT License.
@@ -49,5 +70,6 @@ For open source projects,Under MIT License.
 
 - Project : Student Performance Prediction
 - Author  : Py-Contributors
+- Maintainer : Shubham Pawar
 - Language : Python
 - Github : <https://github.com/Py-Contributors/>
